@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(to bottom right, rgb(223, 221, 228), rgb(229, 230, 235));
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 40px;
+  background: #fff
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+.el {
+  display: flex;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inp {
+  font-size: 15px;
+  padding: 8px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid rgb(43, 43, 58);
+  border-radius: 4px;
+}
+.inp:focus {
+  outline: none;
+}
+button {
+  width: 40px;
+  margin-left: 8px;
+  border: 2px so;id rgb(43, 43, 58);
+  border-radius: 4px;
+  transition: 0.2s;
+}
+button:hover {
+  background: #000;
+  color: #fff;
+}
+
+}
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+th {
+  background: #009578;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+tr:nth-child(even) {
+  background: #eeeeee;
+}
