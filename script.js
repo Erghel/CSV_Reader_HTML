@@ -1,3 +1,4 @@
+// Функция чтения csv файлов 
 document.addEventListener('DOMContentLoaded', function(event) {
   fetch('test.csv')
     .then(function(response) {
