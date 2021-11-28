@@ -48,8 +48,6 @@ button:hover {
   background: #000;
   color: #fff;
 }
-
-}
 table {
   border-collapse: collapse;
   border-radius: 5px;
@@ -59,18 +57,14 @@ table {
   font-weight: bold;
   font-size: 20px;
 }
-
 th {
   background: #009578;
   color: #ffffff;
   text-align: left;
 }
-
-th,
-td {
+th, td {
   padding: 10px 20px;
 }
-
 tr:nth-child(even) {
   background: #eeeeee;
 }
